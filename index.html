@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Teste Layout</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets//logo.png" alt="" />
+      <h1 class="title-page">
+        we have ideas to <span>growth your business</span>
+      </h1>
+      <button class="button-see">see now</button>
+    </header>
+
+    <main>
+      <section class="categories">
+      <div data-aos="fade-in" class="title-categories">
+        <h1>categories</h1>
+        <h6>discover new possibilities to help you today</h6>
+      </div>
+        
+
+        <section class="categories__boxs">
+          <div data-aos="fade-right" class="first-boxs">
+            <div class="nature">
+              <h2>nature</h2>
+              <h6>Lorem ipsum dolor sit amet</h6>
+            </div>
+            <div class="daily">
+              <h2>daily</h2>
+              <h6>Praesent tincidunt consectetur diam</h6>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="midlle-box">
+            <div class="together">
+              <h2>together</h2>    
+              <h6>Vivamus non arcu tincidunt, tempus nunc eu, scelerisque ipsum</h6>
+            </div>
+          </div>
+          </div>
+          <div data-aos="fade-right" class="last-boxs">
+            <div class="analisys">
+              <h2>analisys</h2>
+              <h6>Duis sollicitudin mauris vitae venenatis aliquet</h6>
+            </div>
+            <div class="pictures">
+              <h2>pictures</h2>
+              <h6>Quisque eu nisl purus</h6>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="footer">
+        <div data-aos="fade-in" class="title-footer" >
+          <h1>growth plans</h1>
+          <h6>take your business to the next level</h6>
+        </div>
+        
+
+        <div class="graphs">
+        <div class="graph-box box_100">
+          <div class="box-above">
+            <p>$ 100</p>
+            <span>100 + hours</span>
+          </div>
+          <div class="box-below">
+            <p>Lorem ipsum dolor sit
+              amet, consectetur
+              adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="graph-box box_150">
+          <div class="box-above">
+            <p>$ 150</p>
+            <span>180 + hours</span>
+          </div>
+          <div class="box-below">
+            <p>Lorem ipsum dolor sit
+              amet, consectetur
+              adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="graph-box box_200">
+          <div class="box-above">
+            <p>$ 200</p>
+            <span>260 + hours</span>
+          </div>
+          <div class="box-below">
+            <p>Lorem ipsum dolor sit
+              amet, consectetur
+              adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="graph-box box_250">
+          <div class="box-above">
+            <p>$ 250</p>
+            <span>380 + hours</span>
+          </div>
+          <div class="box-below">
+            <p>Lorem ipsum dolor sit
+              amet, consectetur
+              adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="graph-box box_300">
+          <div class="box-above">
+            <p>$ 300</p>
+            <span>420 + hours</span>
+          </div>
+          <div class="box-below">
+            <p>Lorem ipsum dolor sit
+              amet, consectetur
+              adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="graph-box box_350">
+          <div class="box-above">
+            <p>$ 350</p>
+            <span>520 + hours</span>
+          </div>
+          <div class="box-below">
+            <p>Lorem ipsum dolor sit
+              amet, consectetur
+              adipiscing elit.</p>
+          </div> 
+        </div>
+      </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+    </script>
+  </body>
+</html>

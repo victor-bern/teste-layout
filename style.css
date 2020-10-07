@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 613px;
+  background: url('./assets/background.png') no-repeat;
+  background-size: cover;
+}
+
+header .logo {
+  display: block;
+  max-width: 10%;
+}
+
+header .title-page {
+  color: white;
+  font-size: 2.8rem;
+  line-height: 54px;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
+
+header .title-page span {
+  display: block;
+  font-weight: 600;
+}
+
+header .button-see {
+  width: 180px;
+  padding: 12px;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+main .categories {
+  padding: 60px;
+}
+
+main .categories h1 {
+  font-size: 52px;
+  line-height: 62px;
+  color: #383838;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+main .categories h6 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+main .categories__boxs {
+  max-width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  color: white;
+}
+
+main .categories__boxs h6 {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+main .categories__boxs h2 {
+  font-size: 52px;
+  line-height: 62px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+main .categories__boxs .first-boxs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+main .categories__boxs .midlle-box {
+  display: flex;
+  width: 100%;
+}
+
+main .categories__boxs .last-boxs {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+main .categories__boxs .nature {
+  background: url('./assets/nature.png') no-repeat;
+  background-size: cover;
+  width: 370px;
+  height: 346px;
+  padding: 30px 30px;
+}
+main .categories__boxs .daily {
+  background: url('./assets/daily.png') no-repeat;
+  background-size: cover;
+  margin-left: 30px;
+  flex-grow: 1;
+  padding: 30px 30px;
+}
+main .categories__boxs .together {
+  background: url('./assets/together.png') no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  height: 346px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+main .categories__boxs .analisys {
+  background: url('./assets/analisys.png') no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+  flex-grow: 1;
+  text-align: right;
+  padding: 30px 30px;
+}
+
+main .categories__boxs .pictures {
+  background: url('./assets/pictures.png') no-repeat;
+  background-size: cover;
+  width: 370px;
+  height: 346px;
+  padding: 30px 30px;
+}
+
+main .footer {
+  background: #f4f4f4;
+  padding: 60px;
+  position: relative;
+}
+
+main .title-footer {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+main .footer .title-footer h1 {
+  font-size: 52px;
+  line-height: 62px;
+  color: #383838;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+main .footer .title-footer h6 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+main .footer .graphs {
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+
+main .footer .graphs .graph-box {
+  background: #0088ed;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .footer .graphs .graph-box + .graph-box {
+  margin-left: 30px;
+}
+
+main .footer .graphs .graph-box .box-above {
+  background: #005499;
+  height: 98px;
+  padding: 20px;
+  position: relative;
+}
+
+main .footer .graphs .graph-box .box-above p {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 600;
+}
+main .footer .graphs .graph-box .box-above span {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+main .footer .graphs .graph-box .box-below {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+main .footer .graphs .graph-box .box-below p {
+  font-size: 12px;
+  line-height: 14px;
+  width: 130px;
+  text-align: left;
+}
+
+main .footer .graphs .graph-box.box_100 {
+  height: 175px;
+}
+
+main .footer .graphs .graph-box.box_150 {
+  height: 225px;
+}
+
+main .footer .graphs .graph-box.box_200 {
+  height: 275px;
+}
+
+main .footer .graphs .graph-box.box_250 {
+  height: 325px;
+}
+main .footer .graphs .graph-box.box_300 {
+  height: 375px;
+}
+
+main .footer .graphs .graph-box.box_350 {
+  height: 425px;
+}
